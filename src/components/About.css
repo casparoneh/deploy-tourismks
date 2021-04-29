@@ -1,0 +1,76 @@
+.image-header-container {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.image-header {
+  width: 95%;
+  height: 500px;
+  border-radius: 20px;
+}
+.heading-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: blue;
+}
+.short-info div p {
+  margin: 8px 0;
+}
+.person-might {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: blue;
+  margin: 65px 0;
+}
+.info-vip {
+  width: 90%;
+  height: 500;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.short-info {
+  width: 50%;
+}
+.vip-kosova {
+  width: 50%;
+}
+.vip-person {
+  height: 300px;
+}
+
+.geography-of-kosovo{
+  width: 80%;
+  margin: 60px auto;
+}
+.geography-of-kosovo p {
+  margin-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+@media screen and (max-width: 820px) {
+  .info-vip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .short-info {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .vip-kosova {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .list-card-vip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+}
